@@ -700,147 +700,92 @@ While learning in the observation space (pixel, 3D mesh, language, etc.) is a co
 | **Object-Centric Representations Generalize Better** | [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers) |
 | **Object-Centric Latent Action Learning** | [![Website](https://img.shields.io/badge/Website-Link-blue)](https://physical-world-modeling.github.io/) |
 
-### 7. Post-training and Inference-Time Scaling for World Models
-- [⭐️] **RLVR-World**: "RLVR-World: Training World Models with Reinforcement Learning". [![arXiv](https://img.shields.io/badge/arXiv-2505.13934-b31b1b.svg)](https://arxiv.org/abs/2505.13934) [[Website]( https://thuml.github.io/RLVR-World/)] [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/thuml/RLVR-World)
-- **RLIR**, "Reinforcement Learning with Inverse Rewards for World Model Post-training". [![arXiv](https://img.shields.io/badge/arXiv-2509.23958-b31b1b.svg)](https://arxiv.org/abs/2509.23958)
-- **Chrono-Edit**, "ChronoEdit: Towards Temporal Reasoning for Image Editing and World Simulation". [![arXiv](https://img.shields.io/badge/arXiv-2510.04290-b31b1b.svg)](https://arxiv.org/abs/2510.04290) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://research.nvidia.com/labs/toronto-ai/chronoedit/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/nv-tlabs/ChronoEdit)
-- [⭐️] **SWIFT**, "Can Test-Time Scaling Improve World Foundation Model?". [![arXiv](https://img.shields.io/badge/arXiv-2503.24320-b31b1b.svg)](https://arxiv.org/abs/2503.24320) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/Mia-Cong/SWIFT.git)
+### 8. Post-training and Inference-Time Scaling for World Models
+| Model/Work | Links |
+| :--- | :--- |
+| [⭐️] **RLVR-World**, "RLVR-World: Training World Models with Reinforcement Learning" | [![arXiv](https://img.shields.io/badge/arXiv-2505.13934-b31b1b.svg)](https://arxiv.org/abs/2505.13934) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://thuml.github.io/RLVR-World/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/thuml/RLVR-World) |
+| **RLIR**, "Reinforcement Learning with Inverse Rewards for World Model Post-training" | [![arXiv](https://img.shields.io/badge/arXiv-2509.23958-b31b1b.svg)](https://arxiv.org/abs/2509.23958) |
+| **Chrono-Edit**, "ChronoEdit: Towards Temporal Reasoning for Image Editing and World Simulation" | [![arXiv](https://img.shields.io/badge/arXiv-2510.04290-b31b1b.svg)](https://arxiv.org/abs/2510.04290) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://research.nvidia.com/labs/toronto-ai/chronoedit/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/nv-tlabs/ChronoEdit) |
+| [⭐️] **SWIFT**, "Can Test-Time Scaling Improve World Foundation Model?" | [![arXiv](https://img.shields.io/badge/arXiv-2503.24320-b31b1b.svg)](https://arxiv.org/abs/2503.24320) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/Mia-Cong/SWIFT.git) |
 
 
 
-### 8. World Models in the context of Model-Based RL
-A significant porportion of World Model Algorithms and Techniques stem from the advances in Model-based Reinforcement Learning in the era around 2020. Dreamer(v1-v3) are classical works in this era. We provide a list of classical works as well as works following this line of thought.
+### 9. World Models in the context of Model-Based RL
+A significant porportion of World Model Algorithms and Techniques stem from the advances in Model-based Reinforcement Learning in the era around 2020. Dreamer(v1-v3) are classical works in this era.
 
-- [⭐️] **Dreamer**, "Dream to Control: Learning Behaviors by Latent Imagination". [![arXiv](https://img.shields.io/badge/arXiv-1912.01603-b31b1b.svg)](https://arxiv.org/abs/1912.01603) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/danijar/dreamer) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://danijar.com/project/dreamer/)
-- [⭐️] **Dreamerv2**, "Mastering Atari with Discrete World Models". [![arXiv](https://img.shields.io/badge/arXiv-2010.02193-b31b1b.svg)](https://arxiv.org/abs/2010.02193) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/danijar/dreamerv2) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://danijar.com/project/dreamerv2/)
-- [⭐️] **Dreamerv3**, "Mastering Diverse Domains through World Models". [![arXiv](https://img.shields.io/badge/arXiv-2301.04104-b31b1b.svg)](https://arxiv.org/abs/2301.04104) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/danijar/dreamerv3) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://danijar.com/project/dreamerv3/)
-- **DreamSmooth**: "DreamSmooth: Improving Model-based Reinforcement Learning via Reward Smoothing". [![arXiv](https://img.shields.io/badge/arXiv-2311.01450-b31b1b.svg)](https://arxiv.org/pdf/2311.01450)
-- [⭐️] **TD-MPC2**: "TD-MPC2: Scalable, Robust World Models for Continuous Control". [![arXiv](https://img.shields.io/badge/arXiv-2310.16828-b31b1b.svg)](https://arxiv.org/pdf/2310.16828) [[Torch Code](https://github.com/nicklashansen/tdmpc2)]
-- **Hieros**: "Hieros: Hierarchical Imagination on Structured State Space Sequence World Models". [![arXiv](https://img.shields.io/badge/arXiv-2310.05167-b31b1b.svg)](https://arxiv.org/abs/2310.05167)
-- **CoWorld**: "Making Offline RL Online: Collaborative World Models for Offline Visual Reinforcement Learning". [![arXiv](https://img.shields.io/badge/arXiv-2305.15260-b31b1b.svg)](https://arxiv.org/abs/2305.15260)
-- **HarmonyDream**, "HarmonyDream: Task Harmonization Inside World Models". [![arXiv](https://img.shields.io/badge/arXiv-2310.00344-b31b1b.svg)](https://arxiv.org/abs/2310.00344) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/thuml/HarmonyDream)
-- **DyMoDreamer**, "DyMoDreamer: World Modeling with Dynamic Modulation". [![arXiv](https://img.shields.io/badge/arXiv-2509.24804-b31b1b.svg)](https://arxiv.org/abs/2509.24804) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/Ultraman-Tiga1/DyMoDreamer)
-- "Dynamics-Aligned Latent Imagination in Contextual World Models for Zero-Shot Generalization". [![arXiv](https://img.shields.io/badge/arXiv-2508.20294-b31b1b.svg)](https://arxiv.org/abs/2508.20294)
-- **PIGDreamer**, "PIGDreamer: Privileged Information Guided World Models for Safe Partially Observable Reinforcement Learning". [![arXiv](https://img.shields.io/badge/arXiv-2508.02159-b31b1b.svg)](https://arxiv.org/abs/2508.02159)
-- [⭐️] **Continual Reinforcement Learning by Planning with Online World Models**, "Continual Reinforcement Learning by Planning with Online World Models". [![arXiv](https://img.shields.io/badge/arXiv-2507.09177-b31b1b.svg)](https://arxiv.org/abs/2507.09177)
-- **Δ-IRIS**: "Efficient World Models with Context-Aware Tokenization". [![arXiv](https://img.shields.io/badge/arXiv-2406.19320-b31b1b.svg)](https://arxiv.org/abs/2406.19320) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/vmicheli/delta-iris)
-- **AD3**: "AD3: Implicit Action is the Key for World Models to Distinguish the Diverse Visual Distractors". [![arXiv](https://img.shields.io/badge/arXiv-2403.09976-b31b1b.svg)](https://arxiv.org/abs/2403.09976)
-- **R2I**: "Mastering Memory Tasks with World Models". [![arXiv](https://img.shields.io/badge/arXiv-2403.04253-b31b1b.svg)](http://arxiv.org/pdf/2403.04253) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://recall2imagine.github.io/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/chandar-lab/Recall2Imagine)
-- **REM**: "Improving Token-Based World Models with Parallel Observation Prediction". [![arXiv](https://img.shields.io/badge/arXiv-2402.05643-b31b1b.svg)](https://arxiv.org/abs/2402.05643) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/leor-c/REM)
-- **AWM**, "Do Transformer World Models Give Better Policy Gradients?"". [![arXiv](https://img.shields.io/badge/arXiv-2402.05290-b31b1b.svg)](https://arxiv.org/abs/2402.05290)
-- [⭐️] **Dreaming of Many Worlds**, "Dreaming of Many Worlds: Learning Contextual World Models Aids Zero-Shot Generalization".  [![arXiv](https://img.shields.io/badge/arXiv-2403.10967-b31b1b.svg)](https://arxiv.org/abs/2403.10967) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/sai-prasanna/dreaming_of_many_worlds)
-- **PWM**: "PWM: Policy Learning with Large World Models". [![arXiv](https://img.shields.io/badge/arXiv-2407.02466-b31b1b.svg)](https://arxiv.org/abs/2407.02466) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://www.imgeorgiev.com/pwm/)
-- **GenRL**: "GenRL: Multimodal foundation world models for generalist embodied agents". [![arXiv](https://img.shields.io/badge/arXiv-2406.18043-b31b1b.svg)](https://arxiv.org/abs/2406.18043) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/mazpie/genrl)
-- **DLLM**: "World Models with Hints of Large Language Models for Goal Achieving". [![arXiv](https://img.shields.io/badge/arXiv-2406.07381-b31b1b.svg)](http://arxiv.org/pdf/2406.07381)
-- **Adaptive World Models**: "Adaptive World Models: Learning Behaviors by Latent Imagination Under Non-Stationarity". [![arXiv](https://img.shields.io/badge/arXiv-2411.01342-b31b1b.svg)](https://arxiv.org/abs/2411.01342)
-- "Reward-free World Models for Online Imitation Learning". [![arXiv](https://img.shields.io/badge/arXiv-2410.14081-b31b1b.svg)](https://arxiv.org/abs/2410.14081)
-- **MoReFree**: "World Models Increase Autonomy in Reinforcement Learning". [![arXiv](https://img.shields.io/badge/arXiv-2408.09807-b31b1b.svg)](https://arxiv.org/abs/2408.09807) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/morefree)
-- **ROMBRL**, "Policy-Driven World Model Adaptation for Robust Offline Model-based Reinforcement Learning". [![arXiv](https://img.shields.io/badge/arXiv-2505.13709-b31b1b.svg)](https://arxiv.org/abs/2505.13709) 
-- "Coupled Distributional Random Expert Distillation for World Model Online Imitation Learning". [![arXiv](https://img.shields.io/badge/arXiv-2505.02228-b31b1b.svg)](https://arxiv.org/abs/2505.02228) 
-- [⭐️] **MoSim**: "Neural Motion Simulator Pushing the Limit of World Models in Reinforcement Learning". [![arXiv](https://img.shields.io/badge/arXiv-2504.07095-b31b1b.svg)](https://arxiv.org/abs/2504.07095)
-- **SENSEI**: "SENSEI: Semantic Exploration Guided by Foundation Models to Learn Versatile World Models". [![arXiv](https://img.shields.io/badge/arXiv-2503.01584-b31b1b.svg)](https://arxiv.org/abs/2503.01584) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/sensei-paper)
-- **Spiking World Model**, "Implementing Spiking World Model with Multi-Compartment Neurons for Model-based Reinforcement Learning". [![arXiv](https://img.shields.io/badge/arXiv-2503.00713-b31b1b.svg)](https://arxiv.org/abs/2503.00713)
-- **DCWM**, "Discrete Codebook World Models for Continuous Control". [![arXiv](https://img.shields.io/badge/arXiv-2503.00653-b31b1b.svg)](https://arxiv.org/abs/2503.00653)
-- **Multimodal Dreaming**: "Multimodal Dreaming: A Global Workspace Approach to World Model-Based Reinforcement Learning". [![arXiv](https://img.shields.io/badge/arXiv-2502.21142-b31b1b.svg)](https://arxiv.org/abs/2502.21142)
-- "Generalist World Model Pre-Training for Efficient Reinforcement Learning". [![arXiv](https://img.shields.io/badge/arXiv-2502.19544-b31b1b.svg)](https://arxiv.org/abs/2502.19544)
-- "Learning To Explore With Predictive World Model Via Self-Supervised Learning". [![arXiv](https://img.shields.io/badge/arXiv-2502.13200-b31b1b.svg)](https://arxiv.org/abs/2502.13200)
-- **Simulus**: "Uncovering Untapped Potential in Sample-Efficient World Model Agents". [![arXiv](https://img.shields.io/badge/arXiv-2502.11537-b31b1b.svg)](https://arxiv.org/abs/2502.11537)
-- **DMWM**: "DMWM: Dual-Mind World Model with Long-Term Imagination". [![arXiv](https://img.shields.io/badge/arXiv-2502.07591-b31b1b.svg)](https://arxiv.org/abs/2502.07591)
-- **EvoAgent**: "EvoAgent: Agent Autonomous Evolution with Continual World Model for Long-Horizon Tasks". [![arXiv](https://img.shields.io/badge/arXiv-2502.05907-b31b1b.svg)](https://arxiv.org/abs/2502.05907)
-- **GLIMO**: "Grounding Large Language Models In Embodied Environment With Imperfect World Models". [![arXiv](https://img.shields.io/badge/arXiv-2410.02664-b31b1b.svg)](https://arxiv.org/abs/2410.02664)
-- **Energy-based Transition Models**, "Offline Transition Modeling via Contrastive Energy Learning". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=dqpg8jdA2w&referrer=%5Bthe%20profile%20of%20Yang%20Yu%5D(%2Fprofile%3Fid%3D~Yang_Yu5)) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/Ruifeng-Chen/Energy-Transition-Models)
-- **PCM**, "Policy-conditioned Environment Models are More Generalizable". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=g9mYBdooPA&referrer=%5Bthe%20profile%20of%20Yang%20Yu%5D(%2Fprofile%3Fid%3D~Yang_Yu5)) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://policy-conditioned-model.github.io/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/xionghuichen/policy-conditioned-model)<!-- inserted -->
-* **Temporal Difference Flows**: "Temporal Difference Flows". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers)
-<!-- end inserted -->
-<!-- inserted -->
-* **Improving Transformer World Models**: "Improving Transformer World Models for Data-Efficient RL". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers)
-<!-- end inserted -->
-<!-- inserted -->
-* **Accelerating Goal-Conditioned RL**: "Accelerating Goal-Conditioned RL Algorithms and Research". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers)
-<!-- end inserted -->
-<!-- inserted -->
-* **LEARNING FROM LESS**: "LEARNING FROM LESS: SINDY SURROGATES IN RL". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers)
-<!-- end inserted -->
-<!-- inserted -->
-* **Combining Unsupervised and Offline RL**: "Combining Unsupervised and Offline RL via World Models". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers)
-<!-- end inserted -->
-<!-- inserted -->
-* **World Models as Reference Trajectories**: "World Models as Reference Trajectories for Rapid Motor Adaptation". [![arXiv](https://img.shields.io/badge/arXiv-2505.15589-b31b1b.svg)](https://arxiv.org/abs/2505.15589) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept)
-<!-- end inserted -->
-<!-- inserted -->
-* **Stress-Testing Offline Reward-Free Reinforcement Learning**: "Stress-Testing Offline Reward-Free Reinforcement Learning: A Case for Planning with Latent Dynamics Models". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers)
-<!-- end inserted -->
-<!-- inserted -->
-* **Decentralized Transformers with Centralized Aggregation**: "Decentralized Transformers with Centralized Aggregation are Sample-Efficient Multi-Agent World Models". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers)
-<!-- end inserted -->
-<!-- inserted -->
-* **Model-based Offline Reinforcement Learning**: "Model-based Offline Reinforcement Learning with Lower Expectile Q-Learning". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers)
-<!-- end inserted -->
-<!-- inserted -->
-* **BiD**: "BiD: Behavioral Agents in Dynamic Auctions". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers)
-<!-- end inserted -->
-<!-- inserted -->
-* **Pushing the Limit**: "Pushing the Limit of Sample-Efficient Offline Reinforcement Learning". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers)
-<!-- end inserted -->
-<!-- inserted -->
-* **Learning from Reward-Free Offline Data**: "Learning from Reward-Free Offline Data: A Case for Planning with Latent Dynamics Models". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://physical-world-modeling.github.io/)
-<!-- end inserted -->
-<!-- inserted -->
-* **SP: JEPA-WMs**: "SP: JEPA-WMs: On Planning with Joint-Embedding Predictive World Models". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://physical-world-modeling.github.io/)
-<!-- end inserted -->
-<!-- inserted -->
-* **DAWM**: "DAWM: Diffusion Action World Models for Offline Reinforcement Learning via Action-Inferred Transitions". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://physical-world-modeling.github.io/)
-<!-- end inserted -->
-<!-- inserted -->
-* **Revisiting Multi-Agent World Modeling**: "Revisiting Multi-Agent World Modeling from a Diffusion-Inspired Perspective". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://physical-world-modeling.github.io/)
-<!-- end inserted -->
-<!-- inserted -->
-* **Communicating Plans, Not Percepts**: "Communicating Plans, Not Percepts: Scalable Multi-Agent Coordination with Embodied World Models". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/)
-<!-- end inserted -->
-<!-- inserted -->
-* **Exploring exploration**: "Exploring exploration with foundation agents in interactive environments". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/)
-<!-- end inserted -->
-<!-- inserted -->
-* **Adversarial Diffusion**: "Adversarial Diffusion for Robust Reinforcement Learning". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/)
-<!-- end inserted -->
-<!-- inserted -->
-* **Learning to Focus**: "Learning to Focus: Prioritizing Informative Histories with Structured Attention Mechanisms in Partially Observable Reinforcement Learning". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/)
-<!-- end inserted -->
-<!-- inserted -->
-* **PolicyGRID**: "PolicyGRID: Acting to Understand, Understanding to Act". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/)
-<!-- end inserted -->
-<!-- inserted -->
-* **Stable Planning**: "Stable Planning through Aligned Representations in Model-Based Reinforcement Learning". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/)
-<!-- end inserted -->
-<!-- inserted -->
-* **Revisiting Multi-Agent World Modeling from a Diffusion-Inspired Perspective**: "Revisiting Multi-Agent World Modeling from a Diffusion-Inspired Perspective". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://physical-world-modeling.github.io/)
-<!-- end inserted -->
+| Model/Work | Links |
+| :--- | :--- |
+| [⭐️] **Dreamer**, "Dream to Control: Learning Behaviors by Latent Imagination" | [![arXiv](https://img.shields.io/badge/arXiv-1912.01603-b31b1b.svg)](https://arxiv.org/abs/1912.01603) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/danijar/dreamer) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://danijar.com/project/dreamer/) |
+| [⭐️] **Dreamerv2**, "Mastering Atari with Discrete World Models" | [![arXiv](https://img.shields.io/badge/arXiv-2010.02193-b31b1b.svg)](https://arxiv.org/abs/2010.02193) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/danijar/dreamerv2) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://danijar.com/project/dreamerv2/) |
+| [⭐️] **Dreamerv3**, "Mastering Diverse Domains through World Models" | [![arXiv](https://img.shields.io/badge/arXiv-2301.04104-b31b1b.svg)](https://arxiv.org/abs/2301.04104) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/danijar/dreamerv3) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://danijar.com/project/dreamerv3/) |
+| **DreamSmooth**, "DreamSmooth: Improving Model-based Reinforcement Learning via Reward Smoothing" | [![arXiv](https://img.shields.io/badge/arXiv-2311.01450-b31b1b.svg)](https://arxiv.org/pdf/2311.01450) |
+| [⭐️] **TD-MPC2**, "TD-MPC2: Scalable, Robust World Models for Continuous Control" | [![arXiv](https://img.shields.io/badge/arXiv-2310.16828-b31b1b.svg)](https://arxiv.org/pdf/2310.16828) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/nicklashansen/tdmpc2) |
+| **Hieros**, "Hieros: Hierarchical Imagination on Structured State Space Sequence World Models" | [![arXiv](https://img.shields.io/badge/arXiv-2310.05167-b31b1b.svg)](https://arxiv.org/abs/2310.05167) |
+| **CoWorld**, "Making Offline RL Online: Collaborative World Models for Offline Visual Reinforcement Learning" | [![arXiv](https://img.shields.io/badge/arXiv-2305.15260-b31b1b.svg)](https://arxiv.org/abs/2305.15260) |
+| **HarmonyDream**, "HarmonyDream: Task Harmonization Inside World Models" | [![arXiv](https://img.shields.io/badge/arXiv-2310.00344-b31b1b.svg)](https://arxiv.org/abs/2310.00344) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/thuml/HarmonyDream) |
+| **DyMoDreamer**, "DyMoDreamer: World Modeling with Dynamic Modulation" | [![arXiv](https://img.shields.io/badge/arXiv-2509.24804-b31b1b.svg)](https://arxiv.org/abs/2509.24804) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/Ultraman-Tiga1/DyMoDreamer) |
+| "Dynamics-Aligned Latent Imagination in Contextual World Models for Zero-Shot Generalization" | [![arXiv](https://img.shields.io/badge/arXiv-2508.20294-b31b1b.svg)](https://arxiv.org/abs/2508.20294) |
+| **PIGDreamer**, "PIGDreamer: Privileged Information Guided World Models for Safe Partially Observable Reinforcement Learning" | [![arXiv](https://img.shields.io/badge/arXiv-2508.02159-b31b1b.svg)](https://arxiv.org/abs/2508.02159) |
+| [⭐️] **Continual Reinforcement Learning by Planning with Online World Models** | [![arXiv](https://img.shields.io/badge/arXiv-2507.09177-b31b1b.svg)](https://arxiv.org/abs/2507.09177) |
+| **Δ-IRIS**, "Efficient World Models with Context-Aware Tokenization" | [![arXiv](https://img.shields.io/badge/arXiv-2406.19320-b31b1b.svg)](https://arxiv.org/abs/2406.19320) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/vmicheli/delta-iris) |
+| **AD3**, "AD3: Implicit Action is the Key for World Models to Distinguish the Diverse Visual Distractors" | [![arXiv](https://img.shields.io/badge/arXiv-2403.09976-b31b1b.svg)](https://arxiv.org/abs/2403.09976) |
+| **R2I**, "Mastering Memory Tasks with World Models" | [![arXiv](https://img.shields.io/badge/arXiv-2403.04253-b31b1b.svg)](http://arxiv.org/pdf/2403.04253) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://recall2imagine.github.io/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/chandar-lab/Recall2Imagine) |
+| **REM**, "Improving Token-Based World Models with Parallel Observation Prediction" | [![arXiv](https://img.shields.io/badge/arXiv-2402.05643-b31b1b.svg)](https://arxiv.org/abs/2402.05643) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/leor-c/REM) |
+| **AWM**, "Do Transformer World Models Give Better Policy Gradients?" | [![arXiv](https://img.shields.io/badge/arXiv-2402.05290-b31b1b.svg)](https://arxiv.org/abs/2402.05290) |
+| [⭐️] **Dreaming of Many Worlds**, "Dreaming of Many Worlds: Learning Contextual World Models Aids Zero-Shot Generalization" | [![arXiv](https://img.shields.io/badge/arXiv-2403.10967-b31b1b.svg)](https://arxiv.org/abs/2403.10967) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/sai-prasanna/dreaming_of_many_worlds) |
+| **PWM**, "PWM: Policy Learning with Large World Models" | [![arXiv](https://img.shields.io/badge/arXiv-2407.02466-b31b1b.svg)](https://arxiv.org/abs/2407.02466) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://www.imgeorgiev.com/pwm/) |
+| **GenRL**, "GenRL: Multimodal foundation world models for generalist embodied agents" | [![arXiv](https://img.shields.io/badge/arXiv-2406.18043-b31b1b.svg)](https://arxiv.org/abs/2406.18043) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/mazpie/genrl) |
+| **DLLM**, "World Models with Hints of Large Language Models for Goal Achieving" | [![arXiv](https://img.shields.io/badge/arXiv-2406.07381-b31b1b.svg)](http://arxiv.org/pdf/2406.07381) |
+| **Adaptive World Models**, "Adaptive World Models: Learning Behaviors by Latent Imagination Under Non-Stationarity" | [![arXiv](https://img.shields.io/badge/arXiv-2411.01342-b31b1b.svg)](https://arxiv.org/abs/2411.01342) |
+| "Reward-free World Models for Online Imitation Learning" | [![arXiv](https://img.shields.io/badge/arXiv-2410.14081-b31b1b.svg)](https://arxiv.org/abs/2410.14081) |
+| **MoReFree**, "World Models Increase Autonomy in Reinforcement Learning" | [![arXiv](https://img.shields.io/badge/arXiv-2408.09807-b31b1b.svg)](https://arxiv.org/abs/2408.09807) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/morefree) |
+| **ROMBRL**, "Policy-Driven World Model Adaptation for Robust Offline Model-based Reinforcement Learning" | [![arXiv](https://img.shields.io/badge/arXiv-2505.13709-b31b1b.svg)](https://arxiv.org/abs/2505.13709) |
+| "Coupled Distributional Random Expert Distillation for World Model Online Imitation Learning" | [![arXiv](https://img.shields.io/badge/arXiv-2505.02228-b31b1b.svg)](https://arxiv.org/abs/2505.02228) |
+| [⭐️] **MoSim**, "Neural Motion Simulator Pushing the Limit of World Models in Reinforcement Learning" | [![arXiv](https://img.shields.io/badge/arXiv-2504.07095-b31b1b.svg)](https://arxiv.org/abs/2504.07095) |
+| **SENSEI**, "SENSEI: Semantic Exploration Guided by Foundation Models to Learn Versatile World Models" | [![arXiv](https://img.shields.io/badge/arXiv-2503.01584-b31b1b.svg)](https://arxiv.org/abs/2503.01584) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/sensei-paper) |
+| **Spiking World Model**, "Implementing Spiking World Model with Multi-Compartment Neurons for Model-based Reinforcement Learning" | [![arXiv](https://img.shields.io/badge/arXiv-2503.00713-b31b1b.svg)](https://arxiv.org/abs/2503.00713) |
+| **DCWM**, "Discrete Codebook World Models for Continuous Control" | [![arXiv](https://img.shields.io/badge/arXiv-2503.00653-b31b1b.svg)](https://arxiv.org/abs/2503.00653) |
+| **Multimodal Dreaming**, "Multimodal Dreaming: A Global Workspace Approach to World Model-Based Reinforcement Learning" | [![arXiv](https://img.shields.io/badge/arXiv-2502.21142-b31b1b.svg)](https://arxiv.org/abs/2502.21142) |
+| "Generalist World Model Pre-Training for Efficient Reinforcement Learning" | [![arXiv](https://img.shields.io/badge/arXiv-2502.19544-b31b1b.svg)](https://arxiv.org/abs/2502.19544) |
+| "Learning To Explore With Predictive World Model Via Self-Supervised Learning" | [![arXiv](https://img.shields.io/badge/arXiv-2502.13200-b31b1b.svg)](https://arxiv.org/abs/2502.13200) |
+| **Simulus**, "Uncovering Untapped Potential in Sample-Efficient World Model Agents" | [![arXiv](https://img.shields.io/badge/arXiv-2502.11537-b31b1b.svg)](https://arxiv.org/abs/2502.11537) |
+| **DMWM**, "DMWM: Dual-Mind World Model with Long-Term Imagination" | [![arXiv](https://img.shields.io/badge/arXiv-2502.07591-b31b1b.svg)](https://arxiv.org/abs/2502.07591) |
+| **EvoAgent**, "EvoAgent: Agent Autonomous Evolution with Continual World Model for Long-Horizon Tasks" | [![arXiv](https://img.shields.io/badge/arXiv-2502.05907-b31b1b.svg)](https://arxiv.org/abs/2502.05907) |
+| **GLIMO**, "Grounding Large Language Models In Embodied Environment With Imperfect World Models" | [![arXiv](https://img.shields.io/badge/arXiv-2410.02664-b31b1b.svg)](https://arxiv.org/abs/2410.02664) |
+| **Energy-based Transition Models**, "Offline Transition Modeling via Contrastive Energy Learning" | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=dqpg8jdA2w) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/Ruifeng-Chen/Energy-Transition-Models) |
+| **PCM**, "Policy-conditioned Environment Models are More Generalizable" | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=g9mYBdooPA) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://policy-conditioned-model.github.io/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/xionghuichen/policy-conditioned-model) |
+| **Temporal Difference Flows** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers) |
+| **Improving Transformer World Models for Data-Efficient RL** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers) |
+| **Accelerating Goal-Conditioned RL Algorithms and Research** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers) |
+| **LEARNING FROM LESS: SINDY SURROGATES IN RL** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers) |
+| **Combining Unsupervised and Offline RL via World Models** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers) |
+| **World Models as Reference Trajectories for Rapid Motor Adaptation** | [![arXiv](https://img.shields.io/badge/arXiv-2505.15589-b31b1b.svg)](https://arxiv.org/abs/2505.15589) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) |
+| **Stress-Testing Offline Reward-Free Reinforcement Learning** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers) |
+| **Decentralized Transformers with Centralized Aggregation** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers) |
+| **Model-based Offline Reinforcement Learning with Lower Expectile Q-Learning** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers) |
+| **BiD: Behavioral Agents in Dynamic Auctions** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers) |
+| **Pushing the Limit of Sample-Efficient Offline Reinforcement Learning** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers) |
+| **Learning from Reward-Free Offline Data** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://physical-world-modeling.github.io/) |
+| **SP: JEPA-WMs: On Planning with Joint-Embedding Predictive World Models** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://physical-world-modeling.github.io/) |
+| **DAWM: Diffusion Action World Models for Offline Reinforcement Learning** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://physical-world-modeling.github.io/) |
+| **Revisiting Multi-Agent World Modeling from a Diffusion-Inspired Perspective** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://physical-world-modeling.github.io/) |
+| **Communicating Plans, Not Percepts: Scalable Multi-Agent Coordination** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/) |
+| **Exploring exploration with foundation agents in interactive environments** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/) |
+| **Adversarial Diffusion for Robust Reinforcement Learning** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/) |
+| **Learning to Focus: Prioritizing Informative Histories** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/) |
+| **PolicyGRID: Acting to Understand, Understanding to Act** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/) |
+| **Stable Planning through Aligned Representations** | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/) |
+| **JOWA**, "Scaling Offline Model-Based RL via Jointly-Optimized World-Action Model Pretraining" | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=T1OvCSFaum) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/CJReinforce/JOWA) |
+| **LS-Imagine**, "Open-World Reinforcement Learning over Long Short-Term Imagination" | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=vzItLaEoDa) |
+| **TWISTER**, "Learning Transformer-based World Models with Contrastive Predictive Coding" | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=YK9G4Htdew) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://github.com/burchim/TWISTER) |
+| **WAKER**, "Reward-Free Curricula for Training Robust World Models" | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=eCGpNGDeNu) |
+| **THICK**, "Learning Hierarchical World Models with Adaptive Temporal Abstractions" | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=TjCDNssXKU) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/CognitiveModeling/THICK) |
 
 
-<!-- inserted -->
-* **JOWA**: "Scaling Offline Model-Based RL via Jointly-Optimized World-Action Model Pretraining". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=T1OvCSFaum)  [![Code](https://img.shields.io/badge/Code-GitHub-green)]( https://github.com/CJReinforce/JOWA)
-<!-- end inserted -->
-
-<!-- inserted -->
-* **LS-Imagine**: "Open-World Reinforcement Learning over Long Short-Term Imagination". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=vzItLaEoDa) 
-<!-- end inserted -->
-
-
-<!-- inserted -->
-* **TWISTER**: "Learning Transformer-based World Models with Contrastive Predictive Coding". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=YK9G4Htdew) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://github.com/burchim/TWISTER)
-<!-- end inserted -->
-
-<!-- inserted -->
-* **WAKER**: "Reward-Free Curricula for Training Robust World Models". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=eCGpNGDeNu) 
-<!-- end inserted -->
-
-<!-- inserted -->
-* **THICK**: "Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=TjCDNssXKU)  [![Code](https://img.shields.io/badge/Code-GitHub-green)]( https://github.com/CognitiveModeling/THICK)
-<!-- end inserted -->
-
-
-### 9. World models in other modalities
-- **Graph World Model**, "Graph World Model". [![arXiv](https://img.shields.io/badge/arXiv-2507.10539-b31b1b.svg)](https://arxiv.org/abs/2507.10539) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://github.com/ulab-uiuc/GWM)
+### 10. World models in other modalities
+| Model/Work | Links |
+| :--- | :--- |
+| **Graph World Model** | [![arXiv](https://img.shields.io/badge/arXiv-2507.10539-b31b1b.svg)](https://arxiv.org/abs/2507.10539) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://github.com/ulab-uiuc/GWM) |
 
 ### 10. Memory in World Model
 Implicit Memory:
