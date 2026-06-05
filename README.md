@@ -39,6 +39,35 @@
 
 ---
 
+## 🚩 Latest News & Updates
+
+<details>
+<summary><b>Click to expand timeline</b></summary>
+
+🚀 **[2025-11] 1k+ Stars ⭐️ Under 30 Days** — 🌍 [Awesome World Models](https://github.com/ishandutta2007/Awesome-World-Models) reached 1k github stars within 30 days of initial release, let's go!!!
+
+🗺️ **[2025-10] Enhanced Visual Navigation** — Introduced badge system for papers! All entries now display [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](#) [![Website](https://img.shields.io/badge/Website-Link-blue)](#) [![Code](https://img.shields.io/badge/Code-GitHub-green)](#) for quick access to resources.
+
+🔥 **[2025-10] Repository Launch** — Awesome World Models is now live! We're building a comprehensive collection spanning Embodied AI, Autonomous Driving, NLP, and more.
+
+</details>
+
+---
+
+## 🗺️ Quick Navigation
+
+<div align="center">
+
+| | | |
+| :--- | :--- | :--- |
+| 📚 [**Definition**](#definition-of-world-models) | 🎮 [**Game Simulation**](#world-models-for-game-simulation) | 🔬 [**Science**](#world-models-for-science) |
+| 📖 [**Surveys**](#surveys-of-world-models) | 🚗 [**Auto-Driving**](#world-models-for-autonomous-driving) | 💭 [**Positions**](#positions-on-world-models) |
+| 🤖 [**Embodied AI**](#world-models-for-embodied-ai) | 🛠️ [**General Approaches**](#general-approaches-to-world-models) | 📊 [**Evaluation**](#evaluating-world-models) |
+
+</div>
+
+---
+
 ## Definition of World Models
 While world models' outreach has been expanded again and again, it is widely adopted that the original sources of world models come from these two papers:
 * [⭐️] **World Models**, World Models. [![arXiv](https://img.shields.io/badge/arXiv-1803.10122-b31b1b.svg)](https://arxiv.org/abs/1803.10122) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://worldmodels.github.io/) 
