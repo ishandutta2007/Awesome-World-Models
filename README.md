@@ -3,7 +3,7 @@
 # 🌍 Awesome World Models
 
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![GitHub stars](https://img.shields.io/github/stars/knightnemo/Awesome-World-Models?style=social)](https://github.com/knightnemo/Awesome-World-Models/stargazers) [![License](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](LICENSE.txt) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-World-Models?style=social)](https://github.com/ishandutta2007/Awesome-World-Models/stargazers) [![License](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](LICENSE.txt) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 **📜 A Curated List of Amazing Works in World Modeling, spanning applications in Embodied AI, Autonomous Driving, Natural Language Processing and Agents.** </br>
 *Based on [Awesome-World-Model-for-Autonomous-Driving](https://github.com/LMD0311/Awesome-World-Model) and [Awesome-World-Model-for-Robotics](https://github.com/leofan90/Awesome-World-Models)*.
@@ -17,7 +17,7 @@
 ## 🚩 News & Updates
 _Major updates and announcements are shown below. Scroll for full timeline._
 
-🚀 **[2025-11] 1k+ Stars ⭐️ Under 30 Days** — 🌍 [Awesome World Models](https://github.com/knightnemo/Awesome-World-Models) reached 1k github stars within 30 days of initial release, let's go!!!
+🚀 **[2025-11] 1k+ Stars ⭐️ Under 30 Days** — 🌍 [Awesome World Models](https://github.com/ishandutta2007/Awesome-World-Models) reached 1k github stars within 30 days of initial release, let's go!!!
 
 🗺️ **[2025-10] Enhanced Visual Navigation** — Introduced badge system for papers! All entries now display [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](#) [![Website](https://img.shields.io/badge/Website-Link-blue)](#) [![Code](https://img.shields.io/badge/Code-GitHub-green)](#) for quick access to resources.
 
@@ -74,7 +74,7 @@ While world models' outreach has been expanded again and again, it is widely ado
 
 Some other great blogposts on world models include:
 - [⭐️] **Towards Video World Models**, "Towards Video World Models". [![Blog](https://img.shields.io/badge/Blog-Link-orange)](https://www.xunhuang.me/blogs/world_model.html)
-- **Status of World Models in 2025**, "Beyond the Hype: How I See World Models Evolving in 2025". [![Blog](https://img.shields.io/badge/Blog-Link-orange)](https://knightnemo.github.io/blog/posts/wm_2025/)
+- **Status of World Models in 2025**, "Beyond the Hype: How I See World Models Evolving in 2025". [![Blog](https://img.shields.io/badge/Blog-Link-orange)](https://ishandutta2007.github.io/blog/posts/wm_2025/)
 - [⭐️] **Jim Fan's tweet**. [![Blog](https://img.shields.io/badge/Blog-Link-orange)](https://x.com/DrJimFan/status/1709947595525951787)
 - [⭐️] **World Model Workshop at Montreal**, "Keynote: Yoshua Bengio, Yann Lecun, Jurgen Schmidhuber, Sherry Yang, Shirley Ho, etc. (Youtube Streamning included)". [![Website](https://img.shields.io/badge/Website-Link-blue)](https://world-model-mila.github.io/) [![Blog](https://img.shields.io/badge/Blog-Link-orange)](https://medium.com/@zlf465074419/yann-lecun-world-model-insights-19c1234508c3)
 
@@ -511,7 +511,7 @@ Useful Approaches in Video Generation:
 - [⭐️] **Helios**, "Helios: Real Real-Time Long Video Generation Model". [![arXiv](https://img.shields.io/badge/arXiv-2603.04379-b31b1b.svg)](https://arxiv.org/abs/2603.04379) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://pku-yuangroup.github.io/Helios-Page/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/PKU-YuanGroup/Helios)
 
 From Video Generation Models to World Models:
-- [⭐️] **Vid2World**: "Vid2World: Crafting Video Diffusion Models to Interactive World Models". [![arXiv](https://img.shields.io/badge/arXiv-2505.14357-b31b1b.svg)](https://arxiv.org/abs/2505.14357) [![Website](https://img.shields.io/badge/Website-Link-blue)](http://knightnemo.github.io/vid2world/)
+- [⭐️] **Vid2World**: "Vid2World: Crafting Video Diffusion Models to Interactive World Models". [![arXiv](https://img.shields.io/badge/arXiv-2505.14357-b31b1b.svg)](https://arxiv.org/abs/2505.14357) [![Website](https://img.shields.io/badge/Website-Link-blue)](http://ishandutta2007.github.io/vid2world/)
 - **AVID**, "AVID: Adapting Video Diffusion Models to World Models". [![arXiv](https://img.shields.io/badge/arXiv-2410.12822-b31b1b.svg)](https://arxiv.org/abs/2410.12822) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/microsoft/causica/tree/main/research_experiments/avid)
 - **IRASim**, "IRASim: A Fine-Grained World Model for Robot Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2406.14540-b31b1b.svg)](https://arxiv.org/abs/2406.14540) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://gen-irasim.github.io/)
 - **DWS**, "Pre-Trained Video Generative Models as World Simulators". [![arXiv](https://img.shields.io/badge/arXiv-2502.07825-b31b1b.svg)](https://arxiv.org/abs/2502.07825)
@@ -575,75 +575,63 @@ Pixel Space World Models:
 
 ### 3. Building World Models from 3D Vision Priors
 3D Mesh is also a useful representaiton of the physical world, including benefits such as spatial consistency.
-- [⭐️] **WorldGrow**: "WorldGrow: Generating Infinite 3D World". [![arXiv](https://img.shields.io/badge/arXiv-2510.21682-b31b1b.svg)](https://arxiv.org/abs/2510.21682) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/world-grow/WorldGrow) 
-- **TRELLISWorld**: "TRELLISWorld: Training-Free World Generation from Object Generators". [![arXiv](https://img.shields.io/badge/arXiv-2510.23880-b31b1b.svg)](https://arxiv.org/abs/2510.23880)
-- **Terra**: "Terra: Explorable Native 3D World Model with Point Latents". [![arXiv](https://img.shields.io/badge/arXiv-2510.14977-b31b1b.svg)](https://arxiv.org/abs/2510.14977) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://huang-yh.github.io/terra/)
-- **MorphoSim**: "MorphoSim: An Interactive, Controllable, and Editable Language-guided 4D World Simulator". [![arXiv](https://img.shields.io/badge/arXiv-2510.04390-b31b1b.svg)](https://arxiv.org/abs/2510.04390) [[code](https://github.com/eric-ai-lab/Morph4D)]
-- **EvoWorld**: "EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory". [![arXiv](https://img.shields.io/badge/arXiv-2510.01183-b31b1b.svg)](https://arxiv.org/abs/2510.01183) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/JiahaoPlus/EvoWorld)
-- [⭐️] **FantasyWorld**: "FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction". [![arXiv](https://img.shields.io/badge/arXiv-2509.21657-b31b1b.svg)](https://arxiv.org/abs/2509.21657)
-- [⭐️] **Aether**: "Aether: Geometric-Aware Unified World Modeling". [![arXiv](https://img.shields.io/badge/arXiv-2503.18945-b31b1b.svg)](https://arxiv.org/abs/2503.18945) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://aether-world.github.io/)
-- **HERO**: "HERO: Hierarchical Extrapolation and Refresh for Efficient World Models". [![arXiv](https://img.shields.io/badge/arXiv-2508.17588-b31b1b.svg)](https://arxiv.org/abs/2508.17588)
-- **UrbanWorld**: "UrbanWorld: An Urban World Model for 3D City Generation". [![arXiv](https://img.shields.io/badge/arXiv-2407.11965-b31b1b.svg)](https://arxiv.org/abs/2407.11965)
-- **DeepVerse**: "DeepVerse: 4D Autoregressive Video Generation as a World Model". [![arXiv](https://img.shields.io/badge/arXiv-2506.01103-b31b1b.svg)](https://arxiv.org/abs/2506.01103)<!-- inserted -->
-* **EnerVerse-AC**: "EnerVerse-AC: Envisioning Embodied Environments with Action Condition". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/)
-<!-- end inserted -->
-<!-- inserted -->
-* **Adapting a World Model**: "Adapting a World Model for Trajectory Following in a 3D Game". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers)
-<!-- end inserted -->
-<!-- inserted -->
-* **SteerX**: "SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://worldmodelbench.github.io/)
-<!-- end inserted -->
-<!-- inserted -->
-* **SP- PhysicsNeRF**: "SP- PhysicsNeRF: Physics-Guided 3D Reconstruction from Sparse Views". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://physical-world-modeling.github.io/)
-<!-- end inserted -->
+
+| Model/Work | Links |
+| :--- | :--- |
+| [⭐️] **WorldGrow**, "WorldGrow: Generating Infinite 3D World" | [![arXiv](https://img.shields.io/badge/arXiv-2510.21682-b31b1b.svg)](https://arxiv.org/abs/2510.21682) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/world-grow/WorldGrow) |
+| **TRELLISWorld**, "TRELLISWorld: Training-Free World Generation from Object Generators" | [![arXiv](https://img.shields.io/badge/arXiv-2510.23880-b31b1b.svg)](https://arxiv.org/abs/2510.23880) |
+| **Terra**, "Terra: Explorable Native 3D World Model with Point Latents" | [![arXiv](https://img.shields.io/badge/arXiv-2510.14977-b31b1b.svg)](https://arxiv.org/abs/2510.14977) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://huang-yh.github.io/terra/) |
+| **MorphoSim**, "MorphoSim: An Interactive, Controllable, and Editable Language-guided 4D World Simulator" | [![arXiv](https://img.shields.io/badge/arXiv-2510.04390-b31b1b.svg)](https://arxiv.org/abs/2510.04390) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/eric-ai-lab/Morph4D) |
+| **EvoWorld**, "EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory" | [![arXiv](https://img.shields.io/badge/arXiv-2510.01183-b31b1b.svg)](https://arxiv.org/abs/2510.01183) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/JiahaoPlus/EvoWorld) |
+| [⭐️] **FantasyWorld**, "FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction" | [![arXiv](https://img.shields.io/badge/arXiv-2509.21657-b31b1b.svg)](https://arxiv.org/abs/2509.21657) |
+| [⭐️] **Aether**, "Aether: Geometric-Aware Unified World Modeling" | [![arXiv](https://img.shields.io/badge/arXiv-2503.18945-b31b1b.svg)](https://arxiv.org/abs/2503.18945) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://aether-world.github.io/) |
+| **HERO**, "HERO: Hierarchical Extrapolation and Refresh for Efficient World Models" | [![arXiv](https://img.shields.io/badge/arXiv-2508.17588-b31b1b.svg)](https://arxiv.org/abs/2508.17588) |
+| **UrbanWorld**, "UrbanWorld: An Urban World Model for 3D City Generation" | [![arXiv](https://img.shields.io/badge/arXiv-2407.11965-b31b1b.svg)](https://arxiv.org/abs/2407.11965) |
+| **DeepVerse**, "DeepVerse: 4D Autoregressive Video Generation as a World Model" | [![arXiv](https://img.shields.io/badge/arXiv-2506.01103-b31b1b.svg)](https://arxiv.org/abs/2506.01103) |
+| **EnerVerse-AC**, "EnerVerse-AC: Envisioning Embodied Environments with Action Condition" | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/EWM#tab-accept-oral) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://embodied-world-models.github.io/) |
+| **Adapting a World Model**, "Adapting a World Model for Trajectory Following in a 3D Game" | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICLR.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://sites.google.com/view/worldmodel-iclr2025/accepted-papers) |
+| **SteerX**, "SteerX: Creating Any Camera-Free 3D and 4D Scenes with Geometric Steering" | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://worldmodelbench.github.io/) |
+| **SP- PhysicsNeRF**, "SP- PhysicsNeRF: Physics-Guided 3D Reconstruction from Sparse Views" | [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/group?id=ICML.cc/2025/Workshop/World_Models#tab-accept) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://physical-world-modeling.github.io/) |
 
 ### 4. Building World Models from Language Priors
 The represents a "top-down" approach to achieving intelligence, abstraction before sensorimotor.
 
-Aiming to Advance LLM/VLM skills:
-- [⭐️] **VLWM**, "Planning with Reasoning using Vision Language World Model". [![arXiv](https://img.shields.io/badge/arXiv-2509.02722-b31b1b.svg)](https://arxiv.org/abs/2509.02722)
-- [⭐️] **Agent Learning via Early Experience**, "Agent Learning via Early Experience". [![arXiv](https://img.shields.io/badge/arXiv-2510.08558-b31b1b.svg)](https://arxiv.org/pdf/2510.08558)
-- [⭐️] **CWM**, "CWM: An Open-Weights LLM for Research on Code Generation with World Models". [![arXiv](https://img.shields.io/badge/arXiv-2510.02387-b31b1b.svg)](https://arxiv.org/abs/2510.02387) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://ai.meta.com/resources/models-and-libraries/cwm-downloads) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/facebookresearch/cwm)
-- [⭐️] **RAP**, "Reasoning with language model is planning with world model". [![arXiv](https://img.shields.io/badge/arXiv-2305.14992-b31b1b.svg)](https://arxiv.org/abs/2305.14992) 
-- **SURGE**, "SURGE: On the Potential of Large Language Models as General-Purpose Surrogate Code Executors". [![arXiv](https://img.shields.io/badge/arXiv-2502.11167-b31b1b.svg)](https://arxiv.org/abs/2502.11167) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/Imbernoulli/SURGE)
-- **LLM-Sim**: "Can Language Models Serve as Text-Based World Simulators?". [![arXiv](https://img.shields.io/badge/arXiv-2406.06485-b31b1b.svg)](https://arxiv.org/abs/2406.06485) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/cognitiveailab/GPT-simulator)
-- **WorldLLM**, "WorldLLM: Improving LLMs' world modeling using curiosity-driven theory-making". [![arXiv](https://img.shields.io/badge/arXiv-2506.06725-b31b1b.svg)](https://arxiv.org/abs/2506.06725)
-- **LLMs as World Models**, "LLMs as World Models: Data-Driven and Human-Centered Pre-Event Simulation for Disaster Impact Assessment". [![arXiv](https://img.shields.io/badge/arXiv-2506.06355-b31b1b.svg)](https://arxiv.org/abs/2506.06355)
-- [⭐️] **LWM**: "World Model on Million-Length Video And Language With RingAttention".  [![arXiv](https://img.shields.io/badge/arXiv-2402.08268-b31b1b.svg)](https://arxiv.org/abs/2402.08268) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/LargeWorldModel/LWM)
-- "Evaluating World Models with LLM for Decision Making". [![arXiv](https://img.shields.io/badge/arXiv-2411.08794-b31b1b.svg)](https://arxiv.org/abs/2411.08794) 
-- **LLMPhy**: "LLMPhy: Complex Physical Reasoning Using Large Language Models and World Models". [![arXiv](https://img.shields.io/badge/arXiv-2411.08027-b31b1b.svg)](https://arxiv.org/abs/2411.08027) 
-- **LLMCWM**: "Language Agents Meet Causality -- Bridging LLMs and Causal World Models". [![arXiv](https://img.shields.io/badge/arXiv-2410.19923-b31b1b.svg)](https://arxiv.org/abs/2410.19923) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/j0hngou/LLMCWM/)
-- "Making Large Language Models into World Models with Precondition and Effect Knowledge". [![arXiv](https://img.shields.io/badge/arXiv-2409.12278-b31b1b.svg)](https://arxiv.org/abs/2409.12278)
-- **CityBench**: "CityBench: Evaluating the Capabilities of Large Language Model as World Model". [![arXiv](https://img.shields.io/badge/arXiv-2406.13945-b31b1b.svg)](https://arxiv.org/abs/2406.13945) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/tsinghua-fib-lab/CityBench)
-
-
-Aiming to enhance computer-use agent performance:
-- [⭐️] **Neural-OS**, "NeuralOS: Towards Simulating Operating Systems via Neural Generative Models". [![arXiv](https://img.shields.io/badge/arXiv-2507.08800-b31b1b.svg)](https://arxiv.org/abs/2507.08800) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://neural-os.com/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/yuntian-group/neural-os)
-- **R-WoM**: "R-WoM: Retrieval-augmented World Model For Computer-use Agents". [![arXiv](https://img.shields.io/badge/arXiv-2510.11892-b31b1b.svg)](https://arxiv.org/abs/2510.11892)
-- [⭐️] **SimuRA**: "SimuRA: Towards General Goal-Oriented Agent via Simulative Reasoning Architecture with LLM-Based World Model". [![arXiv](https://img.shields.io/badge/arXiv-2507.23773-b31b1b.svg)](https://arxiv.org/abs/2507.23773)
-- **WebSynthesis**, "WebSynthesis: World-Model-Guided MCTS for Efficient WebUI-Trajectory Synthesis". [![arXiv](https://img.shields.io/badge/arXiv-2507.04370-b31b1b.svg)](https://arxiv.org/abs/2507.04370)
-- **WKM**: "Agent Planning with World Knowledge Model".  [![arXiv](https://img.shields.io/badge/arXiv-2405.14205-b31b1b.svg)](https://arxiv.org/abs/2405.14205) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/zjunlp/WKM)
-- **WebDreamer**, "Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents". [![arXiv](https://img.shields.io/badge/arXiv-2411.06559-b31b1b.svg)](https://arxiv.org/abs/2411.06559) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/OSU-NLP-Group/WebDreamer)
-- "Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation". [![arXiv](https://img.shields.io/badge/arXiv-2410.13232-b31b1b.svg)](https://arxiv.org/abs/2410.13232)
-- **WebEvolver**: "WebEvolver: Enhancing Web Agent Self-Improvement with Coevolving World Model". [![arXiv](https://img.shields.io/badge/arXiv-2504.21024-b31b1b.svg)](https://arxiv.org/abs/2504.21024) 
-- **WALL-E 2.0**: "WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents". [![arXiv](https://img.shields.io/badge/arXiv-2504.15785-b31b1b.svg)](https://arxiv.org/abs/2504.15785) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/elated-sawyer/WALL-E)
-- **ViMo**: "ViMo: A Generative Visual GUI World Model for App Agent". [![arXiv](https://img.shields.io/badge/arXiv-2504.13936-b31b1b.svg)](https://arxiv.org/abs/2504.13936) 
-- [⭐️] **Dyna-Think**: "Dyna-Think: Synergizing Reasoning, Acting, and World Model Simulation in AI Agents". [![arXiv](https://img.shields.io/badge/arXiv-2506.00320-b31b1b.svg)](https://arxiv.org/abs/2506.00320)
-- **FPWC**, "Unlocking Smarter Device Control: Foresighted Planning with a World Model-Driven Code Execution Approach". [![arXiv](https://img.shields.io/badge/arXiv-2505.16422-b31b1b.svg)](https://arxiv.org/abs/2505.16422) 
-
-
-Symbolic World Models:
-- [⭐️] **PoE-World**, "PoE-World: Compositional World Modeling with Products of Programmatic Experts". [![arXiv](https://img.shields.io/badge/arXiv-2505.10819-b31b1b.svg)](https://arxiv.org/abs/2505.10819) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://topwasu.github.io/poe-world)
-- "One Life to Learn: Inferring Symbolic World Models for Stochastic Environments from Unguided Exploration". [![arXiv](https://img.shields.io/badge/arXiv-2510.12088-b31b1b.svg)](https://arxiv.org/abs/2510.12088) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://onelife-worldmodel.github.io/)
-- "Finite Automata Extraction: Low-data World Model Learning as Programs from Gameplay Video". [![arXiv](https://img.shields.io/badge/arXiv-2508.11836-b31b1b.svg)](https://arxiv.org/abs/2508.11836)
-- "Synthesizing world models for bilevel planning". [![arXiv](https://img.shields.io/badge/arXiv-2503.20124-b31b1b.svg)](https://arxiv.org/abs/2503.20124) 
-- "Generating Symbolic World Models via Test-time Scaling of Large Language Models". [![arXiv](https://img.shields.io/badge/arXiv-2502.04728-b31b1b.svg)](https://arxiv.org/abs/2502.04728) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://vmlpddl.github.io/)
-- **Neuro-Symbolic World Models**: "Neuro-Symbolic World Models for Adapting to Open World Novelty". [![arXiv](https://img.shields.io/badge/arXiv-2301.06294-b31b1b.svg)](https://arxiv.org/abs/2301.06294)
-
-LLM-in-the-loop World Generation:
-- **LatticeWorld**, "LatticeWorld: A Multimodal Large Language Model-Empowered Framework for Interactive Complex World Generation". [![arXiv](https://img.shields.io/badge/arXiv-2509.05263-b31b1b.svg)](https://arxiv.org/abs/2509.05263)
-- **Text2World**: "Text2World: Benchmarking Large Language Models for Symbolic World Model Generation". [![arXiv](https://img.shields.io/badge/arXiv-2502.13092-b31b1b.svg)](https://arxiv.org/abs/2502.13092) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://text-to-world.github.io/) 
-
+| Focus | Model/Work | Links |
+| :--- | :--- | :--- |
+| **LLM/VLM Skills** | [⭐️] **VLWM**, "Planning with Reasoning using Vision Language World Model" | [![arXiv](https://img.shields.io/badge/arXiv-2509.02722-b31b1b.svg)](https://arxiv.org/abs/2509.02722) |
+| **LLM/VLM Skills** | [⭐️] **Agent Learning via Early Experience** | [![arXiv](https://img.shields.io/badge/arXiv-2510.08558-b31b1b.svg)](https://arxiv.org/pdf/2510.08558) |
+| **LLM/VLM Skills** | [⭐️] **CWM**, "CWM: An Open-Weights LLM for Research on Code Generation with World Models" | [![arXiv](https://img.shields.io/badge/arXiv-2510.02387-b31b1b.svg)](https://arxiv.org/abs/2510.02387) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://ai.meta.com/resources/models-and-libraries/cwm-downloads) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/facebookresearch/cwm) |
+| **LLM/VLM Skills** | [⭐️] **RAP**, "Reasoning with language model is planning with world model" | [![arXiv](https://img.shields.io/badge/arXiv-2305.14992-b31b1b.svg)](https://arxiv.org/abs/2305.14992) |
+| **LLM/VLM Skills** | **SURGE**, "SURGE: On the Potential of Large Language Models as General-Purpose Surrogate Code Executors" | [![arXiv](https://img.shields.io/badge/arXiv-2502.11167-b31b1b.svg)](https://arxiv.org/abs/2502.11167) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/Imbernoulli/SURGE) |
+| **LLM/VLM Skills** | **LLM-Sim**, "Can Language Models Serve as Text-Based World Simulators?" | [![arXiv](https://img.shields.io/badge/arXiv-2406.06485-b31b1b.svg)](https://arxiv.org/abs/2406.06485) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/cognitiveailab/GPT-simulator) |
+| **LLM/VLM Skills** | **WorldLLM**, "WorldLLM: Improving LLMs' world modeling using curiosity-driven theory-making" | [![arXiv](https://img.shields.io/badge/arXiv-2506.06725-b31b1b.svg)](https://arxiv.org/abs/2506.06725) |
+| **LLM/VLM Skills** | **LLMs as World Models**, "LLMs as World Models: Data-Driven and Human-Centered Pre-Event Simulation for Disaster Impact Assessment" | [![arXiv](https://img.shields.io/badge/arXiv-2506.06355-b31b1b.svg)](https://arxiv.org/abs/2506.06355) |
+| **LLM/VLM Skills** | [⭐️] **LWM**, "World Model on Million-Length Video And Language With RingAttention" | [![arXiv](https://img.shields.io/badge/arXiv-2402.08268-b31b1b.svg)](https://arxiv.org/abs/2402.08268) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/LargeWorldModel/LWM) |
+| **LLM/VLM Skills** | "Evaluating World Models with LLM for Decision Making" | [![arXiv](https://img.shields.io/badge/arXiv-2411.08794-b31b1b.svg)](https://arxiv.org/abs/2411.08794) |
+| **LLM/VLM Skills** | **LLMPhy**, "LLMPhy: Complex Physical Reasoning Using Large Language Models and World Models" | [![arXiv](https://img.shields.io/badge/arXiv-2411.08027-b31b1b.svg)](https://arxiv.org/abs/2411.08027) |
+| **LLM/VLM Skills** | **LLMCWM**, "Language Agents Meet Causality -- Bridging LLMs and Causal World Models" | [![arXiv](https://img.shields.io/badge/arXiv-2410.19923-b31b1b.svg)](https://arxiv.org/abs/2410.19923) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/j0hngou/LLMCWM/) |
+| **LLM/VLM Skills** | "Making Large Language Models into World Models with Precondition and Effect Knowledge" | [![arXiv](https://img.shields.io/badge/arXiv-2409.12278-b31b1b.svg)](https://arxiv.org/abs/2409.12278) |
+| **LLM/VLM Skills** | **CityBench**, "CityBench: Evaluating the Capabilities of Large Language Model as World Model" | [![arXiv](https://img.shields.io/badge/arXiv-2406.13945-b31b1b.svg)](https://arxiv.org/abs/2406.13945) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/tsinghua-fib-lab/CityBench) |
+| **Computer Agents** | [⭐️] **Neural-OS**, "NeuralOS: Towards Simulating Operating Systems via Neural Generative Models" | [![arXiv](https://img.shields.io/badge/arXiv-2507.08800-b31b1b.svg)](https://arxiv.org/abs/2507.08800) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://neural-os.com/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/yuntian-group/neural-os) |
+| **Computer Agents** | **R-WoM**, "R-WoM: Retrieval-augmented World Model For Computer-use Agents" | [![arXiv](https://img.shields.io/badge/arXiv-2510.11892-b31b1b.svg)](https://arxiv.org/abs/2510.11892) |
+| **Computer Agents** | [⭐️] **SimuRA**, "SimuRA: Towards General Goal-Oriented Agent via Simulative Reasoning Architecture with LLM-Based World Model" | [![arXiv](https://img.shields.io/badge/arXiv-2507.23773-b31b1b.svg)](https://arxiv.org/abs/2507.23773) |
+| **Computer Agents** | **WebSynthesis**, "WebSynthesis: World-Model-Guided MCTS for Efficient WebUI-Trajectory Synthesis" | [![arXiv](https://img.shields.io/badge/arXiv-2507.04370-b31b1b.svg)](https://arxiv.org/abs/2507.04370) |
+| **Computer Agents** | **WKM**, "Agent Planning with World Knowledge Model" | [![arXiv](https://img.shields.io/badge/arXiv-2405.14205-b31b1b.svg)](https://arxiv.org/abs/2405.14205) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/zjunlp/WKM) |
+| **Computer Agents** | **WebDreamer**, "Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents" | [![arXiv](https://img.shields.io/badge/arXiv-2411.06559-b31b1b.svg)](https://arxiv.org/abs/2411.06559) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/OSU-NLP-Group/WebDreamer) |
+| **Computer Agents** | "Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation" | [![arXiv](https://img.shields.io/badge/arXiv-2410.13232-b31b1b.svg)](https://arxiv.org/abs/2410.13232) |
+| **Computer Agents** | **WebEvolver**, "WebEvolver: Enhancing Web Agent Self-Improvement with Coevolving World Model" | [![arXiv](https://img.shields.io/badge/arXiv-2504.21024-b31b1b.svg)](https://arxiv.org/abs/2504.21024) |
+| **Computer Agents** | **WALL-E 2.0**, "WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents" | [![arXiv](https://img.shields.io/badge/arXiv-2504.15785-b31b1b.svg)](https://arxiv.org/abs/2504.15785) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/elated-sawyer/WALL-E) |
+| **Computer Agents** | **ViMo**, "ViMo: A Generative Visual GUI World Model for App Agent" | [![arXiv](https://img.shields.io/badge/arXiv-2504.13936-b31b1b.svg)](https://arxiv.org/abs/2504.13936) |
+| **Computer Agents** | [⭐️] **Dyna-Think**, "Dyna-Think: Synergizing Reasoning, Acting, and World Model Simulation in AI Agents" | [![arXiv](https://img.shields.io/badge/arXiv-2506.00320-b31b1b.svg)](https://arxiv.org/abs/2506.00320) |
+| **Computer Agents** | **FPWC**, "Unlocking Smarter Device Control: Foresighted Planning with a World Model-Driven Code Execution Approach" | [![arXiv](https://img.shields.io/badge/arXiv-2505.16422-b31b1b.svg)](https://arxiv.org/abs/2505.16422) |
+| **Symbolic WM** | [⭐️] **PoE-World**, "PoE-World: Compositional World Modeling with Products of Programmatic Experts" | [![arXiv](https://img.shields.io/badge/arXiv-2505.10819-b31b1b.svg)](https://arxiv.org/abs/2505.10819) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://topwasu.github.io/poe-world) |
+| **Symbolic WM** | "One Life to Learn: Inferring Symbolic World Models for Stochastic Environments from Unguided Exploration" | [![arXiv](https://img.shields.io/badge/arXiv-2510.12088-b31b1b.svg)](https://arxiv.org/abs/2510.12088) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://onelife-worldmodel.github.io/) |
+| **Symbolic WM** | "Finite Automata Extraction: Low-data World Model Learning as Programs from Gameplay Video" | [![arXiv](https://img.shields.io/badge/arXiv-2508.11836-b31b1b.svg)](https://arxiv.org/abs/2508.11836) |
+| **Symbolic WM** | "Synthesizing world models for bilevel planning" | [![arXiv](https://img.shields.io/badge/arXiv-2503.20124-b31b1b.svg)](https://arxiv.org/abs/2503.20124) |
+| **Symbolic WM** | "Generating Symbolic World Models via Test-time Scaling of Large Language Models" | [![arXiv](https://img.shields.io/badge/arXiv-2502.04728-b31b1b.svg)](https://arxiv.org/abs/2502.04728) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://vmlpddl.github.io/) |
+| **Symbolic WM** | **Neuro-Symbolic World Models**, "Neuro-Symbolic World Models for Adapting to Open World Novelty" | [![arXiv](https://img.shields.io/badge/arXiv-2301.06294-b31b1b.svg)](https://arxiv.org/abs/2301.06294) |
+| **LLM-in-the-loop** | **LatticeWorld**, "LatticeWorld: A Multimodal Large Language Model-Empowered Framework for Interactive Complex World Generation" | [![arXiv](https://img.shields.io/badge/arXiv-2509.05263-b31b1b.svg)](https://arxiv.org/abs/2509.05263) |
+| **LLM-in-the-loop** | **Text2World**, "Text2World: Benchmarking Large Language Models for Symbolic World Model Generation" | [![arXiv](https://img.shields.io/badge/arXiv-2502.13092-b31b1b.svg)](https://arxiv.org/abs/2502.13092) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://text-to-world.github.io/) |
 
 
 ### 5. Building World Models by Bridging Language and Vision Intelligence
@@ -989,16 +977,16 @@ If you find this repository useful, please consider citing this list:
     title = {Awesome-World-Models},
     author = {Siqiao Huang and {Awesome-World-Models Contributors}},
     journal = {GitHub repository},
-    url = {https://github.com/knightnemo/Awesome-World-Models},
+    url = {https://github.com/ishandutta2007/Awesome-World-Models},
     year = {2025},
 }
 ```
 ---
 ## All Thanks to Our Contributors
-<a href="https://github.com/knightnemo/Awesome-World-Models/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=knightnemo/Awesome-World-Models" />
+<a href="https://github.com/ishandutta2007/Awesome-World-Models/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ishandutta2007/Awesome-World-Models" />
 </a>
 
 ---
 ## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=knightnemo/Awesome-World-Models&type=Date)](https://www.star-history.com/#knightnemo/Awesome-World-Models&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-World-Models&type=Date)](https://www.star-history.com/#ishandutta2007/Awesome-World-Models&Date)

@@ -27,7 +27,7 @@ The ordering of papers is recommended to be chronological: _older papers should 
 
 **With arXiv:**
 ```markdown
-* **Vid2World**: "Vid2World: Crafting Video Diffusion Models to Interactive World Models". [![arXiv](https://img.shields.io/badge/arXiv-2505.14357-b31b1b.svg)](https://arxiv.org/abs/2505.14357) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://knightnemo.github.io/vid2world/)
+* **Vid2World**: "Vid2World: Crafting Video Diffusion Models to Interactive World Models". [![arXiv](https://img.shields.io/badge/arXiv-2505.14357-b31b1b.svg)](https://arxiv.org/abs/2505.14357) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://ishandutta2007.github.io/vid2world/)
 ```
 
 **With OpenReview:**
