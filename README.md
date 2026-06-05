@@ -1,69 +1,41 @@
+# 🌍 Awesome World Models: The Ultimate Curated List 🚀
+
 <div align="center">
 
-# 🌍 Awesome World Models
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-World-Models?style=social)](https://github.com/ishandutta2007/Awesome-World-Models/stargazers) 
+[![License](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](LICENSE.txt) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+**A comprehensive, curated collection of research and tools for World Models, Embodied AI, Autonomous Driving, and Generative Video.**
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-World-Models?style=social)](https://github.com/ishandutta2007/Awesome-World-Models/stargazers) [![License](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](LICENSE.txt) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[Explore the Repo](#overview) • [Definition](#definition-of-world-models) • [Surveys](#surveys-of-world-models) • [Embodied AI](#world-models-for-embodied-ai) • [Autonomous Driving](#world-models-for-autonomous-driving)
 
-**📜 A Curated List of Amazing Works in World Modeling, spanning applications in Embodied AI, Autonomous Driving, Natural Language Processing and Agents.** </br>
-*Based on [Awesome-World-Model-for-Autonomous-Driving](https://github.com/LMD0311/Awesome-World-Model) and [Awesome-World-Model-for-Robotics](https://github.com/leofan90/Awesome-World-Models)*.
 <p align="center">
-  <img src="assets/banner.svg" alt="Awesome World Models" width="100%">
+  <img src="assets/banner.svg" alt="Awesome World Models Banner - Embodied AI, Autonomous Driving, and Video Generation Research" width="100%">
 </p>
+
+---
+
+**Keywords:** *World Models, Foundation Models, Embodied AI, Autonomous Driving, Generative Video, Machine Intelligence, Robotics, Model-based Reinforcement Learning, JEPA, Sora, Genie.*
+
 </div>
 
 ---
 
-## 🚩 News & Updates
-_Major updates and announcements are shown below. Scroll for full timeline._
+## 🎯 Aim of the Project
 
-🚀 **[2025-11] 1k+ Stars ⭐️ Under 30 Days** — 🌍 [Awesome World Models](https://github.com/ishandutta2007/Awesome-World-Models) reached 1k github stars within 30 days of initial release, let's go!!!
+**World Models** have emerged as the cornerstone of next-generation AI, moving beyond static pattern recognition toward **dynamic simulation of physical reality**. This repository serves as a centralized hub to bridge the gap between various AI disciplines.
 
-🗺️ **[2025-10] Enhanced Visual Navigation** — Introduced badge system for papers! All entries now display [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](#) [![Website](https://img.shields.io/badge/Website-Link-blue)](#) [![Code](https://img.shields.io/badge/Code-GitHub-green)](#) for quick access to resources.
-
-🔥 **[2025-10] Repository Launch** — Awesome World Models is now live! We're building a comprehensive collection spanning Embodied AI, Autonomous Driving, NLP, and more. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute.
-
-💡 **[Ongoing] Community Contributions Welcome** — Help us maintain the most up-to-date world models resource! Submit papers via PR or contact us at [email](mailto:siqiaohuang981@gmail.com).
-
-⭐ **[Ongoing] Support This Project** — If you find this useful, please [cite](#citation) our work and give us a star. Share with your research community!
-
-
----
-## Overview
-
-  - 🎯 [Aim of the project](#aim-of-the-project)
-  - 📚 [Definition of World Models](#definition-of-world-models)
-  - 📖 [Surveys of World Models](#surveys-of-world-models)
-  - 🎮 [World Models for Game Simulation](#world-models-for-game-simulation)
-  - 🚗 [World Models for Autonomous Driving](#world-models-for-autonomous-driving)
-  - 🤖 [World Models for Embodied AI](#world-models-for-embodied-ai)
-  - 🔬 [World Models for Science](#world-models-for-science)
-  - 💭 [Positions on World Models](#positions-on-world-models)
-  - 📐 [Theory & World Models Explainability](#theory--world-models-explainability)
-  - 🛠️ [General Approaches to World Models](#general-approaches-to-world-models)
-  - 📊 [Evaluating World Models](#evaluating-world-models)
-  - 🙏 [Acknowledgements](#acknowledgements)
-  - 📝 [Citation](#citation)
-
----
-
-## Aim of the Project
-
-World Models have become a hot topic in both research and industry, attracting unprecedented attention from the AI community and beyond. However, due to the **interdisciplinary nature** of the field (_and because the term "world model" simply sounds amazing_), the concept has been used with varying definitions across different domains.
+### 🌟 Why follow this project?
+*   🔍 **Deep Scoping:** We track world models across *all* modalities—from pixels to language and 3D meshes.
+*   🗺️ **Domain Mapping:** Clear classification of how world models are applied in **Robotics**, **Self-Driving**, and **Science**.
+*   🚀 **Cutting Edge:** Weekly updates on the latest SOTA models like **Genie**, **V-JEPA**, and **Cosmos**.
+*   🤝 **Community Driven:** Built by and for researchers and enthusiasts in the AI community.
 
 <p align="center">
-  <img src="assets/image.png" alt="Awesome World Models" width="50%" style="border-radius: 15px; box-shadow: 0 4px 24px rgba(0,0,0,.1); margin: 20px 0;">
+  <img src="assets/image.png" alt="Visualizing World Models in AI" width="50%" style="border-radius: 15px; box-shadow: 0 4px 24px rgba(0,0,0,.1); margin: 20px 0;">
 </p>
-
-This repository aims to:
-
-- 🔍 **Organize** the rapidly growing body of world model research across multiple application domains
-- 🗺️ **Provide** a minimalist map of how world models are utilized in different fields (Embodied AI, Autonomous Driving, NLP, etc.)
-- 🤝 **Bridge** the gap between different communities working on world models with varying perspectives
-- 📚 **Serve** as a one-stop resource for researchers, practitioners, and enthusiasts interested in world modeling
-- 🚀 **Track** the latest developments and breakthroughs in this exciting field
-
-Whether you're a researcher looking for related work, a practitioner seeking implementation references, or simply curious about world models, we hope this curated list helps you navigate the landscape! 
 
 ---
 
