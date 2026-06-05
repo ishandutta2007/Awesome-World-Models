@@ -68,7 +68,21 @@
 
 ---
 
-## Definition of World Models
+## 🗺️ Quick Navigation
+
+<div align="center">
+
+| | | |
+| :--- | :--- | :--- |
+| 📚 [**Definition**](#definition-of-world-models) | 🎮 [**Game Simulation**](#world-models-for-game-simulation) | 🔬 [**Science**](#world-models-for-science) |
+| 📖 [**Surveys**](#surveys-of-world-models) | 🚗 [**Auto-Driving**](#world-models-for-autonomous-driving) | 💭 [**Positions**](#positions-on-world-models) |
+| 🤖 [**Embodied AI**](#world-models-for-embodied-ai) | 🛠️ [**General Approaches**](#general-approaches-to-world-models) | 📊 [**Evaluation**](#evaluating-world-models) |
+
+</div>
+
+---
+
+## 📚 Definition of World Models
 While world models' outreach has been expanded again and again, it is widely adopted that the original sources of world models come from these two papers:
 * [⭐️] **World Models**, World Models. [![arXiv](https://img.shields.io/badge/arXiv-1803.10122-b31b1b.svg)](https://arxiv.org/abs/1803.10122) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://worldmodels.github.io/) 
 * [⭐️] **Yann Lecun's Speech**, "A Path Towards Autonomous Machine Intelligence". [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/pdf?id=BZ5a1r-kVsf)
@@ -801,7 +815,7 @@ Explicit Memory:
 
 ---
 
-## Evaluating World Models
+## 📊 Evaluating World Models
 World Models in the Language Modality:
 - **Evaluating the World Model Implicit in a Generative Model**, "Evaluating the World Model Implicit in a Generative Model". [![arXiv](https://img.shields.io/badge/arXiv-2406.03689-b31b1b.svg)](https://arxiv.org/abs/2406.03689) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/keyonvafa/world-model-evaluation)
 - "Benchmarking World-Model Learning". [![arXiv](https://img.shields.io/badge/arXiv-2510.19788-b31b1b.svg)](https://arxiv.org/abs/2510.19788)
@@ -893,3 +907,4 @@ If you find this repository useful, please consider citing this list:
 ---
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-World-Models&type=Date)](https://www.star-history.com/#ishandutta2007/Awesome-World-Models&Date)
+)
